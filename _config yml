@@ -1,0 +1,48 @@
+title: Ralph Hightower — North America Numbering Plan Administration
+
+author:
+  name: Ralph Hightower 
+  email: ralph.hightower@gmail.com
+  #street_address:
+  city: Chapin
+  state: South Carolina
+  zip_code: 29036
+  country: United States of America
+  #phone:
+description: > # this means to ignore newlines until "show_excerpts:"
+  Ralph Hightower: Detection of Telephone Numbers Using the Rules of the North American Numbering Plan Administration 
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+timezone: America/New_York
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%Y-%m-%d %I:%M:%S.%L %p %Z" # "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    #- { platform: devto,          user_url: "https://dev.to/jekyll" }
+    #- { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+    - { platform: facebook,       user_url: "https://www.facebook.com/RalphHightower" }
+    - { platform: flickr,         user_url: "https://www.flickr.com/photos/RalphHightower" }
+    - { platform: github,         user_url: "https://github.com/jekyll/RalphHightower" }
+    #- { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+    #- { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+    #- { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/RalphHightower" }
+    #- { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+    #- { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/26315139/ralph-hightower" }
+    #- { platform: telegram,       user_url: "https://t.me/jekyll" }
+    - { platform: twitter,        user_url: "https://twitter.com/RalphHightower" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/RalphHightower" }
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+# Build settings
+theme: minima
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag# generate social links in footer
