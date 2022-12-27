@@ -15,7 +15,7 @@ class TelephoneFormatDetection
         "(?<CAservices>^(600|622))|" +
         "(?<InterExch>^(700))|" +
         "(?<USgovt>^(710))|" +
-        "(?<TollFree>^(800|833|844|855|866|877|888))|" +
+        "(?<TollFree>^(8[00|33|44|55|66|77|88]))|" +
         "(?<Premium>^(900)" +
       ")(?<SpecExchange>([2-9][0-9][0-9])-(?<SpecNumber\>\[0-9\]{4}" +
     "(?<ReservedAreaCode>([2-9]9[0-9])|((37|96)[0-9]))-[2-9][0-9][0-9]-[0-9]{4}$" +
