@@ -21,7 +21,7 @@ class TelephoneFormatDetection
             "(?<USgovt>^(710))|" +
             "(?<TollFree>^(8[00|33|44|55|66|77|88]))|" +
             "(?<Premium>^(900)" +
-       ")(?<SpecExchange>([2-9][0-9][0-9])-(?<SpecNumber>[0-9]{4}$" +
+            ")(?<SpecExchange>([2-9][0-9][0-9])-(?<SpecNumber>[0-9]{4}))$" +
        "(?<ReservedAreaCode>([2-9]9[0-9])|((37|96)[0-9]))-[2-9][0-9][0-9]-[0-9]{4}$" +
        "(?<InfoAreaCode>^([2-9][0-8][0-9]))-555-(?<InfoNum>(1212|4334))$|" +
        "(?<EntAreaCode>^[2-9][0-8][0-9])-555-(?<EntNumber>(01[0-9][0-9]))$|" +
