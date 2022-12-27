@@ -9,10 +9,10 @@ The formatting rules:
 - N9X	The 80 codes in this format, called expansion codes, have been reserved for use during the period when the current 10-digit NANP number format undergoes expansion.
 - 37X and 96X	Two blocks of 10 codes each have been set aside by the INC for unanticipated purposes where it may be important to have a full range of 10 contiguous codes available.
 
-- (?\<ERC\>^(\[2-9\](11\|22\|33\|44\|55\|66|77\|88\|99)$))|
+- (?\<ERC\>^(\[2-9\](11\|22\|33\|44\|55\|66|77\|88\|99)$))\|
   - (
-    - (?\<NonGeoSvc\>^(500\|521\|522\|523\|524\|525\|526\|527|528|529|533|544|566|577|588))|
-    - (?\<CAservices\>^(600\|622))\|
+    - (?\<NonGeoSvc\>^(5[00\|21\|22\|23\|24\|25\26\|27\|28\|29\|33\|44\|66\|77\|88))|
+    - (?\<CAservices\>^(6[00\|22])\|
     - (?\<InterExch\>^(700))\|
     - (?\<USgovt\>^(710))|
     - (?\<TollFree\>^(8\[00\|33\|44\|55\66\|77\|88]))\|
