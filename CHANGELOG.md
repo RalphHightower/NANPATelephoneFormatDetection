@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.1...v1.0.2) (2023-01-21)
+
+
+### Bug Fixes
+
+* string concatenation missing '+' (closes [#19](https://github.com/RalphHightower/NANPATelephoneFormatDetection/issues/19)) ([0de3c21](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/0de3c2148233aaf426f5fca3bfb3566952aa5e9c))
+
 ## [1.0.1](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.0...v1.0.1) (2022-12-27)
 
 
