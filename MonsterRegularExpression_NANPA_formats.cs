@@ -14,7 +14,7 @@ class TelephoneFormatDetection
 {
     string TelephoneFormatRegularExpression = 
         "(?<ERC>^([2-9](11|22|33|44|55|66|77|88|99)$))|" +
-        "("
+        "(" +
             "(?<NonGeoSvc>^(5[00|21|22|23|24|25|26|27|28|29|33|44|66|77|88]))|" +
             "(?<CAservices>^(6[00|22]))|" +
             "(?<InterExch>^(700))|" +
