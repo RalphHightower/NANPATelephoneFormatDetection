@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.2...v1.0.3) (2023-01-22)
+
+
+### Bug Fixes
+
+* Sequence in parentheses ([09bb3bb](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/09bb3bb37454af497904fbcee49659b8ffc0a43b))
+
 ## [1.0.2](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.1...v1.0.2) (2023-01-21)
 
 
