@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.3...v1.0.4) (2023-01-26)
+
+
+### Bug Fixes
+
+* 866 toll free (closes [#26](https://github.com/RalphHightower/NANPATelephoneFormatDetection/issues/26)) ([d74428f](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/d74428f391a021dd72923f91385cb2a4f3def530))
+
 ## [1.0.3](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.2...v1.0.3) (2023-01-22)
 
 
