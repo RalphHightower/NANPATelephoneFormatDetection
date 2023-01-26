@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.4...v1.0.5) (2023-01-26)
+
+
+### Bug Fixes
+
+* delete jekyll.yml (closes [#33](https://github.com/RalphHightower/NANPATelephoneFormatDetection/issues/33)) ([0b5c31d](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/0b5c31d205e2697fd1b1c05917dd3438856868cc))
+
 ## [1.0.4](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.3...v1.0.4) (2023-01-26)
 
 
