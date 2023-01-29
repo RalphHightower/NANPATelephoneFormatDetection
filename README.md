@@ -1,6 +1,7 @@
 # [North American Numbering Plan Administrator](https://nationalnanpa.com/)
 
 ## NANPATelephoneFormatDetection
+
 North American Numbering Plan 
 The formatting rules:
 

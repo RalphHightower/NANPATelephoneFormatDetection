@@ -13,17 +13,17 @@ namespace NorthAmericaNumberingPlanAdmistration
 class TelephoneFormatDetection
 {
     string TelephoneFormatRegularExpression = 
-        "(?<ERC>^([2-9](11|22|33|44|55|66|77|88|99)$))|" +
+        "(?<ERC>^([2-79](11|22|33|44|55|66|77|88|99)))$|" +
         "(" +
-            "(?<NonGeoSvc>^(5(00|21|22|23|24|25|26|27|28|29|33|44|66|77|88)))|" +
-            "(?<CAservices>^(6(00|22)))|" +
-            "(?<InterExch>^(700))|" +
-            "(?<USgovt>^(710))|" +
-            "(?<TollFree>^(8(00|33|44|55|66|77|88)))|" +
-            "(?<Premium>^(900)" +
-            ")(?<SpecExchange>([2-9][0-9][0-9])-(?<SpecNumber>[0-9]{4}))$" +
-       "(?<ReservedAreaCode>([2-9]9[0-9])|((37|96)[0-9]))-[2-9][0-9][0-9]-[0-9]{4}$" +
-       "(?<InfoAreaCode>^([2-9][0-8][0-9]))-555-(?<InfoNum>(1212|4334))$|" +
-       "(?<EntAreaCode>^[2-9][0-8][0-9])-555-(?<EntNumber>(01[0-9][0-9]))$|" +
-       "(?<AreaCode>([2-9][0-8][0-9]))-(?<Exchange>([2-9][0-9][0-9]))-(?<Number>([0-9]{4}))$";
+            "((?<EntAreaCode>([2-9][0-8][0-9]))-(?<EntExchange>(555))-((?<EntNumber>(01[0-9]{2}))|(?<InfoNumber>(1212|4334))|(?<RealNumber>([0-9]{4}))))|" +
+            "(?<NonGeoSvc>(5(00|2[1-9]|33|44|66|77|88)))|" +
+            "(?<CAservices>(6(00|22)))|" +
+            "(?<InterExch>(700))|" +
+            "(?<USgovt>(710))|" +
+            "(?<TollFree>(8(00|33|44|55|66|77|88)))|" +
+            "(?<Premium>900))" +
+            "(?<AreaCode>)([2-9][0-8][0-9])" +
+            "(?<ReservedAreaCode>([2-9]9[2-9]))|([37|96])[0-9]" +
+        ")" +
+        "-(?<Exchange>([2-9][0-9][0-9]))-(?<Number>([0-9]{4}))$";
 }
