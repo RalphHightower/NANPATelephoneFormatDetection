@@ -24,7 +24,7 @@ class TelephoneFormatDetection
         "(?<Premium>(900))|" +
         "(?<AreaCode>([2-9][0-8])[0-9])" +
             "-" +
-            "(?<Triple5Exchg>(555))-(?<EntertainNum>(01[0-9]{2}))|(?<InfoNum>(1212|4334))|(?<AssngNum>(0[2-9]){2}|[1-9][0-9]{2})|(?<Exchange>[2-9][0-9]{1})-(?<Number>[0-9]{3})"
+            "(?<Triple5Exchg>(555))-(?<EntertainNum>(01[0-9]{2}))|(?<InfoNum>(1212|4334))|(?<AssngNum>(0[2-9]){2}|[1-9][0-9]{2})|(?<Exchange>[2-9][0-9]{1})-(?<Number>[0-9]{3})" +
         ")$";
 
 }
