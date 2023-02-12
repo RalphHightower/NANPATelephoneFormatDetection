@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.6...v1.0.7) (2023-02-12)
+
+
+### Bug Fixes
+
+* ERC |66|66| to |66|77| ([be1ee8e](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/be1ee8e26f7a80dba7dadf97b4d4b185aefa6694))
+
 ## [1.0.6](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.5...v1.0.6) (2023-01-29)
 
 
