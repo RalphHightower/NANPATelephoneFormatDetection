@@ -1,6 +1,7 @@
 # [North American Numbering Plan Administrator](https://nationalnanpa.com/)
 
 ## NANPATelephoneFormatDetection
+
 North American Numbering Plan 
 The formatting rules:
 
@@ -11,11 +12,11 @@ The formatting rules:
 
 - (?\<ERC\>^(\[2-9\](11\|22\|33\|44\|55\|66\|77\|88\|99)$))\|
   - (
-    - (?\<NonGeoSvc\>^(5\[00\|21\|22\|23\|24\|25\|26\|27\|28\|29\|33\|44\|66\|77\|88))\|
-    - (?\<CAservices\>^(6[00\|22])\|
+    - (?\<NonGeoSvc\>^(5\(00\|21\|22\|23\|24\|25\|26\|27\|28\|29\|33\|44\|66\|77\|88\))\|
+    - (?\<CAservices\>^(6(00\|22))\|
     - (?\<InterExch\>^(700))\|
     - (?\<USgovt\>^(710))|
-    - (?\<TollFree\>^(8\[00\|33\|44\|55\66\|77\|88]))\|
+    - (?\<TollFree\>^(8\(00\|33\|44\|55\|66\|77\|88)))\|
     - (?\<Premium\>^(900)
   - )(?\<SpecExchange\>(\[2-9\]\[0-9\]\[0-9\])-(?\<SpecNumber\>\[0-9\]{4}))
 - (?\<ReservedAreaCode\>(\[2-9\]9\[0-9\])\|((37\|96)\[0-9\]))-\[2-9\]\[0-9\]\[0-9\]-\[0-9\]\{4\}$
@@ -27,4 +28,6 @@ The rules:
 
 1. Numbers must be in the following format: ddd, or ddd-ddd-dddd. No parentheses are allowed. 
 2. If ERC is a group that is matched and the length is greater than 3, the number is invalid. 
+
+[Zip file of Central Office Codes Report — Updated daily](https://www.nationalnanpa.com/nanp1/allutlzd.zip)
 

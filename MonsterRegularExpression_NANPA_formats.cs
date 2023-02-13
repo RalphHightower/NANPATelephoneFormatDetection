@@ -1,5 +1,5 @@
 #include System.Text.RegularExpressions;
-.///# [North American Numbering Plan Administrator](https://nationalnanpa.com/)
+///# [North American Numbering Plan Administrator](https://nationalnanpa.com/)
 ///
 ///- Easily Recognizable Codes	When the second and third digits of an area code are the same, that code is called an
 ///easily recognizable code (ERC). ERCs designate special services; e.g., 888 for toll-free service.
@@ -12,6 +12,7 @@
 namespace NorthAmericaNumberingPlanAdmistration
 class TelephoneFormatDetection
 {
+
     string TelephoneFormatRegularExpression = 
         "(^" +
             "(?<ERC>([2-79](11|22|33|44|55|66|77|88|99)))$|" +
