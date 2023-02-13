@@ -14,7 +14,7 @@ class TelephoneFormatDetection
 {
     string TelephoneFormatRegularExpression = 
         "(^" +
-            "(?<ERC>([2-79](11|22|33|44|55|66|77|88|99)$))$|" +
+            "(?<ERC>([2-79](11|22|33|44|55|66|77|88|99)))$|" +
             "(" +
                 "(?<ReservedAreaCode>[2-9]9[0-9]|39[0-9]|96[0-9])" +
                 "(?<NonGeoSvc>(5[00|2[1-9]|33|44|66|77|88]))|" +
