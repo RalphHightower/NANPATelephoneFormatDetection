@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.7...v1.0.8) (2023-02-13)
+
+
+### Bug Fixes
+
+* one area code didn’t have the 'or' ([ccd6603](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/ccd660316b308dce6d9ffa7241dc24b385f38101))
+
 ## [1.0.7](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.6...v1.0.7) (2023-02-12)
 
 
