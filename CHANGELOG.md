@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.9](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.8...v1.0.9) (2023-02-27)
+
+
+### Bug Fixes
+
+* add 'or' to 900 for area code  ([520d2c3](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/520d2c324ec41516fc5e8b246dbf37e33e03a4b3))
+* balance parentheses ([e608fd5](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/e608fd516e78ce8440d9079031bfd481ef45a75e))
+* regular expression name group: LineNumber555 ([a1863e8](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/a1863e8349f24919b42a0998e8e070f68fa245fe))
+
 ## [1.0.8](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.7...v1.0.8) (2023-02-13)
 
 
