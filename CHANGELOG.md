@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.10](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.9...v1.0.10) (2023-06-11)
+
+
+### Bug Fixes
+
+* GitHub ([e6bfd92](https://github.com/RalphHightower/NANPATelephoneFormatDetection/commit/e6bfd92b97b1fa77dd7c70586db080e46b508259))
+
 ## [1.0.9](https://github.com/RalphHightower/NANPATelephoneFormatDetection/compare/v1.0.8...v1.0.9) (2023-02-27)
 
 
