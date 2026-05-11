@@ -30,4 +30,6 @@ The rules:
 2. If ERC is a group that is matched and the length is greater than 3, the number is invalid. 
 
 [Zip file of Central Office Codes Report — Updated daily](https://www.nationalnanpa.com/nanp1/allutlzd.zip)
+[![OpenSSF Baseline](https://www.bestpractices.dev/projects/12811/baseline)](https://www.bestpractices.dev/projects/12811)
+
 
