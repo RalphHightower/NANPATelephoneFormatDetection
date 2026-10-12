@@ -37,7 +37,7 @@ gem 'jekyll-titles-from-headings', '>= 0.5.7'
 gem 'jekyll-toc', '~> 0.19.0'
 gem 'jemoji', '~> 0.13.0'
 gem 'jekyll-webmention_io', '>= 4.2' # worth looking into
-gem 'jekyll-socials', '>= 0.0.7' ' # worth looking into
+gem 'jekyll-socials', '>= 0.0.7' # worth looking into
 
 gem 'addressable', '>= 2.9'
 gem 'base64', '>= 0.3.0'
