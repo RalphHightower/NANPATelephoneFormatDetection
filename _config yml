@@ -11,10 +11,34 @@ author:
   #phone:
 description: > # this means to ignore newlines until "show_excerpts:"
   Ralph Hightower: Detection of Telephone Numbers Using the Rules of the North American Numbering Plan Administration 
-
+timezone: America/New_York
 show_excerpts: true # set to true to show excerpts on the homepage
 
-timezone: America/New_York
+# Build settings
+plugins:
+- jekyll
+- jekyll-avatar
+- jekyll-default-layout
+- jekyll-feed
+- jekyll-github-metadata
+- jekyll-include-cache
+- jekyll-last-modified-at
+- jekyll-link-attributes
+- jekyll-mentions
+- jekyll-optional-front-matter
+- jekyll-readme-index
+- jekyll-relative-links
+- jekyll-sass-converter
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-socials
+- jekyll-titles-from-headings
+- jekyll-toc
+- jekyll-webmention_io
+- jemoji
+- minima
+
+theme: minima
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -42,8 +66,4 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
-# Build settings
-theme: minima
-plugins:
- - jekyll-feed
- - jekyll-seo-tag# generate social links in footer
+ 
