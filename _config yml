@@ -12,8 +12,8 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Ralph Hightower: Detection of Telephone Numbers Using the Rules of the North American Numbering Plan Administration
 
-repository: RalphHightower/NANPATelephoneFormatDetection
-timezone: America/New_York
+repository: "RalphHightower/NANPATelephoneFormatDetection"
+timezone: "America/New_York"
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Build settings
