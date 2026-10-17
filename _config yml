@@ -1,0 +1,69 @@
+title: Ralph Hightower — North America Numbering Plan Administration
+
+author:
+  name: Ralph Hightower 
+  email: ralph.hightower@gmail.com
+  #street_address:
+  city: Chapin
+  state: South Carolina
+  zip_code: 29036
+  country: United States of America
+  #phone:
+description: > # this means to ignore newlines until "show_excerpts:"
+  Ralph Hightower: Detection of Telephone Numbers Using the Rules of the North American Numbering Plan Administration
+show_excerpts: true # set to true to show excerpts on the homepage
+
+repository: 'RalphHightower/NANPATelephoneFormatDetection'
+baseurl: "/NANPATelephoneFormatDetection/"
+timezone: 'America/New_York'
+github_username: RalphHightower
+
+# Build settings
+plugins:
+    - jekyll
+    - jekyll-avatar
+    - jekyll-default-layout
+    - jekyll-feed
+    - jekyll-github-metadata
+    - jekyll-include-cache
+    - jekyll-last-modified-at
+    - jekyll-link-attributes
+    - jekyll-mentions
+    - jekyll-optional-front-matter
+    - jekyll-readme-index
+    - jekyll-relative-links
+    - jekyll-sass-converter
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-socials
+    - jekyll-titles-from-headings
+    - jekyll-toc
+    - jekyll-webmention_io
+    - jemoji
+    - minima
+
+theme: minima
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+    date_format: "%Y-%m-%d %I:%M:%S.%L %p %Z" # "%b %-d, %Y"
+    show_excerpts: true
+    page_excerpts: true
+
+    # generate social links in footer
+    social_links:
+        - { platform: devto, user_url: "https://dev.to/RalphHightower"}
+        #   - { platform: dribbble, user_url: "https://dribbble.com/RalphHightower" }
+        #   - { platform: facebook, user_url: "https://www.facebook.com/ralph.hightower" }
+        - { platform: flickr, user_url: "https://www.flickr.com/photos/RalphHightower" }
+        - { platform: github, user_url: "https://github.com/RalphHightower" }
+        #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+        #   - { platform: instagram, user_url: "https://www.instagram.com/RalphHightower" }
+        #   - { platform: keybase, user_url: "https://keybase.io/RalphHightower" }
+        - { platform: linkedin, user_url: "https://www.linkedin.com/in/RalphHightower" }
+        #   - { platform: microdotblog, user_url: "https://micro.blog/RalphHightower" }
+        #   - { platform: pinterest, user_url: "https://www.pinterest.com/RalphHightower" }
+        - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/19978043/ralph-hightower" }
+        #   - { platform: telegram, user_url: "https://t.me/RalphHightower" }
+        #   - { platform: twitter, user_url: "https://twitter.com/RalphHightower" }
+        - { platform: youtube, user_url: "https://www.youtube.com/@RalphHightower" }
