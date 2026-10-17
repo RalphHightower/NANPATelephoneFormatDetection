@@ -19,7 +19,6 @@ gem 'minima', '>= 2.5.2'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-gem 'jekyll', '~> 4.4', '>= 4.4.1'
 gem 'jekyll-avatar', '~> 0.8.0'
 gem 'jekyll-default-layout', '>= 0.2.1'
 gem 'jekyll-feed', '>= 0.18.0'
