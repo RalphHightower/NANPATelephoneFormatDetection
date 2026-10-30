@@ -37,16 +37,4 @@ gem 'jekyll-toc', '>= 0.19.0'
 gem 'jemoji', '>= 0.13.0'
 gem 'jekyll-webmention_io', '>= 4.2' # worth looking into
 
-gem 'addressable', '>= 2.9'
-gem 'activerecord', '>= 8.1.4' # incompatible with jekyll_ai_related_posts
-gem 'activesupport', '>= 8.1.4' # incompatible with jekyll_ai_related_posts
-gem 'concurrent-ruby', '>= 1.3.8'
-gem 'faraday', '>= 2.14.4'
-gem 'liquid', '>= 4.0.4'
-gem 'json', '>= 3.1'
-gem 'nokogiri', '>= 1.19.4'
-gem 'rexml', '>= 3.4.4'
-gem 'uri', '>= 1.1.2'
-gem 'zeitwerk', '>= 2.8.3'
-
 end
